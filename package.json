@@ -1,0 +1,28 @@
+{
+  "name": "seed-cucumber-cypress",
+  "version": "1.0.0",
+  "description": "Seed for getting started with Cucumber, Cypress, and the Cypress-Cucumber-Preprocessor.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikegfisher/seed-cucumber-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikegfisher/seed-cucumber-cypress/issues"
+  },
+  "homepage": "https://github.com/mikegfisher/seed-cucumber-cypress#readme",
+  "devDependencies": {
+    "cypress": "^3.0.1",
+    "cypress-cucumber-preprocessor": "^1.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "step_definitions/"
+  }
+}
